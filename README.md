@@ -40,11 +40,11 @@ addresses) and they can also add items into their wishlist to purchase in the fu
 
 ## 2. Features and use cases <a name="section-2"></a>
 
-# Feature 1: purchase the cosmetic products.
+### Feature 1: purchase the cosmetic products.
 
 This feature allows the user to purchase Cosmetic goods from the BeautyCircle website. It allows customers to login/register into their accounts, view and search products they would like to purchase. Customers who are logged into their accounts can add or delete products into the shopping cart, also can add or delete the products they would like to purchase at a later date or items that are currently out of stock into or from their wishlist. The products in wishlist can be added to shopping cart directly. Customers can create the order by checking out their shopping cart automatically.
 
-# Use case
+### Use case
 
 * User log in/register: This service allows users to register or sign into their account. The customer can still view items within their cart after logging out and back into their account again.
 * View and search the products: This service allows users to browse the products and read the detailed description and feedback for the product
@@ -52,11 +52,11 @@ This feature allows the user to purchase Cosmetic goods from the BeautyCircle we
 * Create the order: This service allows users to create an order by checking out their shopping cart. Customers can pay through various methods such as credit card or debit cards. The system will verify the validity of the payment and provide users with a receipt and tracking number for the order.
 * Add/remove from the wishlist: Users can add products into their wish list and remove from their wishlist themselves or after the items have been purchased by the user
 
-# Feature 2: the Site Administrator manages Beauty Circle
+### Feature 2: the Site Administrator manages Beauty Circle
 
 This feature allows the administrator to manage the system. It allows the administrator to login to their designated administrator account. And then the administrator can add or delete products into the database system or create/remove the webpage for the product and view/search specific user’s orders. Administrators can also manage Beauty Circle by viewing and updating web page information such as contact details and product status.
 
-# Use case
+### Use case
 
 * Administrator log in: The system allows the administrator login with their unique identification number to manage the stock within the system.
 * View/search the users’ information: The service allows the administrator to search and retrieve users information, and also view and search for orders belonging to each user.
@@ -69,15 +69,17 @@ This feature allows the administrator to manage the system. It allows the admini
 
 ## 3. Domain diagram of the system <a name="section-3"></a>
 ![image](https://user-images.githubusercontent.com/38289920/131221643-508dbd9b-b368-484f-860d-52567a8e4c7b.png)
-# Description:
+### Description:
 BeautyCircle is a web based enterprise system that is used by the cosmetics company to sell their products online. The system has two kinds of users, registered user and administrator. The system provides the service for registered user to purchase the cosmetics product based on their needs from a list of available products, and also allow the administrator to manage the system. The system will provide authentication and authorization mechanism to make sure that each user can access the website and act in the system by using their username and password. Order will require the user to register or log in first and the products that have been adding to the shoppingCart and wishList can store to database for user to purchase next time. The RegisteredUser, Order and Product can be managed by AdminUser, as the admin user has the right to add and delete any user, order or product into and from the system. The general overview of domain classes, their main attributes and their relationships are illustrated in the domain class diagram.
 
 
 ## 4. High level Architecture <a name="section-4"></a>
 ![image](https://user-images.githubusercontent.com/38289920/131221716-a2fc7504-db6c-4631-a885-6aa445e50c87.png)
+
 Based on the system overview, the beautyCircle is presented as a high-level architecture diagram. The high-level architecture of the system is divided into five layers.
 
 ![image](https://user-images.githubusercontent.com/38289920/131221737-e12e4226-bfc9-4ba5-a961-31d275dd4393.png)
+
 The component diagram of BeautyCircle is based on high-level architecture, each layer is a subsystem that handle the different aspects of BeautyCircle, and the coupling between each subsystem is low.
 * Presentation layer contains view module to display the system and controller module to handle requests.
 * Security layer provides authentication, authorisation, validation, data integrity and condentiality to presentation layer.
@@ -95,25 +97,25 @@ The high-level architecture model helps the system become more modular and chang
 ## 5. Class diagram <a name="section-5"></a>
 The following diagram shows the class diagrams of each subset of the BeautyCircle system. All of them can compose the class diagram for the whole system.
 
-# Class Diagram for presentation layer
+### Class Diagram for presentation layer
 ![image](https://user-images.githubusercontent.com/38289920/131221861-3cea6455-8151-4ed4-9168-4e5fe94984dc.png)
 
-# Class Diagram for Domain Logic Layer
+### Class Diagram for Domain Logic Layer
 ![image](https://user-images.githubusercontent.com/38289920/131221872-8a0e3df7-8ea4-4d49-8e23-c8936ef9688c.png)
 ![image](https://user-images.githubusercontent.com/38289920/131221879-f3d990b9-7b8b-4bb7-be2b-f5d7349da4f5.png)
 
-# Class Diagram for Service Layer
+### Class Diagram for Service Layer
 ![image](https://user-images.githubusercontent.com/38289920/131221888-5a9c18eb-f9e9-4f77-8272-b3946ed3092b.png)
 ![image](https://user-images.githubusercontent.com/38289920/131221895-533d2454-2ddb-4656-a9ea-bc697b9e4a9a.png)
 
-# Class Diagram for Data Mapper Layer
+### Class Diagram for Data Mapper Layer
 ![image](https://user-images.githubusercontent.com/38289920/131221912-fdf32e02-7363-4aac-a208-a454809271cb.png)
 ![image](https://user-images.githubusercontent.com/38289920/131221924-738e482e-09a3-4e2f-8184-52ca8597cb20.png)
 
-# Class Diagram for Concurrency
+### Class Diagram for Concurrency
 ![image](https://user-images.githubusercontent.com/38289920/131221943-fcdf235d-6c3d-42de-920b-5bb792bd43e7.png)
 
-# Class Diagram for DTO and Remote Facade
+### Class Diagram for DTO and Remote Facade
 ![image](https://user-images.githubusercontent.com/38289920/131221973-eabb1ef6-9fe2-4c39-944e-dc821c5eadeb.png)
 
 
