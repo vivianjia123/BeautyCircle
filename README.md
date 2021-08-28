@@ -1,5 +1,6 @@
 # BeautyCircle
 
+
 #### Table of contents
 
 1. [Overview of the enterprise application](#section-1)
@@ -124,7 +125,7 @@ The following diagram shows the class diagrams of each subset of the BeautyCircl
 The database diagram shows all tables with their information and relationships for the database of BeautyCircle system.
 
 
-## 7. Test case
+## 7. Test case <a name="section-7"></a>
 Registered user: 
 Username: ksmith 
 Password: 123km
