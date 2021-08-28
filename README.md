@@ -13,7 +13,7 @@
 7. [Sequence Diagram]
 
 
-## 1. Overview of the enterprise application
+## 1. Overview of the enterprise application <a name="section-1"></a>
 The enterprise application our team chose to develop is an online cosmetics retail website that
 supports a hypothetical cosmetics business “Beauty Circle”. The enterprise application supports
 the business in selling cosmetics ranging from makeup, skincare, hair products and tools and
